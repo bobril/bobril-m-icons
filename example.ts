@@ -32,6 +32,7 @@ b.init(() => {
     return [
         { tag: "h1", children: "Bobril Material Icons" },
         { tag: "a", attrs: { href: "https://www.npmjs.com/package/material-design-icons" }, children: "Original source npm" },
+        { tag: "div", children: "All icons have optional parameters size:number=24 and color:string=\"#000\""},
         { tag: "div", children: allnames.map(n => oneIcon({ name: n, factory: allicons[n] })) }
     ]
 });
