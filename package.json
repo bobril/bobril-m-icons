@@ -1,0 +1,25 @@
+{
+  "name": "bobril-m-icons",
+  "version": "0.1.0",
+  "dependencies": {
+    "bobril": "^4.25.0"
+  },
+  "main": "index.js",
+  "typescript": {
+    "main": "index.ts"
+  },
+  "bobril": {
+    "title": "Bobril Material Icons",
+    "example": "example.ts"
+  },
+  "devDependencies": {
+    "material-design-icons": "^2.1.3"
+  },
+  "keywords": [
+    "bobril",
+    "material",
+    "icons"
+  ],
+  "author": "Boris Letocha",
+  "license": "MIT"
+}
