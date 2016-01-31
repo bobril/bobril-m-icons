@@ -5,6 +5,8 @@ export interface IIconData {
     size?: number;
 }
 
+// PureFuncs: f, f2, iconCreateFactoryCore
+
 const iconStyle = styleDef({
     display: 'inline-block',
     fill: '#000',
