@@ -1,6 +1,6 @@
 {
   "name": "bobril-m-icons",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "dependencies": {
     "bobril": "^4.25.0"
   },
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-	"url": "https://github.com/bobril/bobril-m-icons.git"
+    "url": "https://github.com/bobril/bobril-m-icons.git"
   },
   "keywords": [
     "bobril",
