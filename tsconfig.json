@@ -1,15 +1,26 @@
 {
     "compilerOptions": {
-        "target": "es6",
+        "target": "es5",
         "module": "commonjs",
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "declaration": false,
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.core",
+            "es2015.promise"
+        ],
+        "removeComments": false,
+        "noLib": false,
+        "preserveConstEnums": false,
+        "jsx": "react",
+        "reactNamespace": "b"
     },
     "compileOnSave": false,
     "files": [
-        "example.ts",
-        "gen/begin.ts",
-        "gen/generate.ts",
-        "gen/node.d.ts",
-        "index.ts"
+        "node_modules/bobril/jsx.d.ts"
+    ],
+    "include": [
+        "**/*"
     ]
 }

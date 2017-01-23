@@ -9,7 +9,7 @@ export interface IIconData {
 
 const iconStyle = styleDef({
     display: 'inline-block',
-    fill: '#000',
+    fill: 'currentColor',
     height: 24,
     width: 24,
     userSelect: 'none',
