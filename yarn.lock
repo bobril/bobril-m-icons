@@ -3,8 +3,8 @@
 
 
 bobril@*:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/bobril/-/bobril-5.1.0.tgz#63e01ebd42ce0c4479c25f96ca119afc26c5b265"
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/bobril/-/bobril-7.5.0.tgz#0a99f2913756f67c361105f0424df4f78d99dc90"
 
 material-design-icons@*:
   version "3.0.1"
