@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
 var path = require("path");
 var svgs = Object.create(null);
@@ -85,6 +87,8 @@ function recursiveSearch(fspath, dir) {
     });
 }
 recursiveSearch("../node_modules/material-design-icons", []);
+svgs["menuRight"] = "M10,17L15,12L10,7V17Z";
+svgs["menuLeft"] = "M14,7L9,12L14,17V7Z";
 var out = fs.readFileSync('begin.ts', 'utf-8');
 var keys = Object.keys(svgs);
 keys.sort();

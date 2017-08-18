@@ -1,5 +1,3 @@
-/// <reference path="node.d.ts" />
-
 import * as fs from "fs";
 import * as path from "path";
 
@@ -33,7 +31,7 @@ function recursiveSearch(fspath: string, dir: string[]) {
         if (!stats.isFile()) return;
         let match = /^ic_(.+)_24px.svg$/.exec(n);
         if (!match) return;
-        let niceName = humanize(dir[0]+"_"+match[1]);
+        let niceName = humanize(dir[0] + "_" + match[1]);
         let content = fs.readFileSync(mn, 'utf-8');
         content = content.replace(/ fill="[^"]*"/g, "");
         content = content.replace(/ fill-opacity=/g, " opacity=");
@@ -86,6 +84,9 @@ function recursiveSearch(fspath: string, dir: string[]) {
 }
 
 recursiveSearch("../node_modules/material-design-icons", []);
+
+svgs["menuRight"] = "M10,17L15,12L10,7V17Z";
+svgs["menuLeft"] = "M14,7L9,12L14,17V7Z";
 
 let out = fs.readFileSync('begin.ts', 'utf-8');
 let keys = Object.keys(svgs);

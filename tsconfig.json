@@ -14,7 +14,8 @@
         "noLib": false,
         "preserveConstEnums": false,
         "jsx": "react",
-        "reactNamespace": "b"
+        "reactNamespace": "b",
+        "experimentalDecorators": true
     },
     "compileOnSave": false,
     "files": [
